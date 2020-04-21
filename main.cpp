@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::cout << "build" << version();
+    std::cout << "build " << //TRAVIS_BUILD_NUMBER;
     std::cout << "\nHello, World!";
 
     return 0;
