@@ -4,8 +4,8 @@
 
 int main()
 {
-    std::cout << "build " << //TRAVIS_BUILD_NUMBER;
-    std::cout << "\nHello, World!";
+    std::cout << "build ";//TRAVIS_BUILD_NUMBER;
+    std::cout << "Hello, World!";
 
     return 0;
 }
